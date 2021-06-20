@@ -1,0 +1,103 @@
+
+
+/*the color of the body of the page*/
+body {
+    background-color: #f0f1f1;
+}
+
+
+/*the details of the header*/
+header {
+    background-color: #0a3c43;
+    color: #b79f91;
+    padding:10px;
+    text-align: center;
+   display: flex;
+}
+
+
+/*welcome to the home page text*/
+h1 {
+    font-size: 40px; 
+    padding: 0px 40px;
+}
+
+/*space in between the different catergories in the nav bar*/
+ul {
+    padding: 0px 150px;
+}
+
+/*positioning on the nav bar*/
+li {
+    display: inline-block;
+    padding: 20px 20px;  
+}
+
+/*when mouse hover over the text nav bar*/
+.nav:hover{
+color:#f0f1f1
+}
+
+/*nav text color*/
+a {
+    color:#b79f91
+}
+
+
+/*giving the command to be flex*/
+.flex-container {
+    display: flex;
+}
+
+/*flex container*/
+.main {
+    flex: 2px;
+    padding:40px;  
+}
+
+p {
+    background-color: lightgrey;
+    border-style: solid;
+}
+
+/*profile pic*/
+img {
+    margin:50px;
+    padding:20px 115px;
+    border-style: solid;
+}
+
+/*about me padding*/
+h2 {
+    padding-left: 240px;
+}
+
+h2.title {
+    text-align: center;
+    padding: 0px;
+    margin: 0px
+}
+
+
+article.work{
+    text-align: center;
+    
+}
+
+ul.list{
+    text-align: center;
+    border-style: solid;
+}
+
+/*text color of the link*/
+.text {
+    color:black
+}
+/*text color when hovered over*/
+.text:hover {
+    color:#b79f91
+}
+
+
+
+
