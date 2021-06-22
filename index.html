@@ -19,38 +19,47 @@
                 <h1>Welcome to My Web-Page</h1>
             <nav>
                 <ul>
-                    <li><a href="About Me" class="nav">About Me</a></li>
-                    <li><a href="Work" class="nav">Work</a></li>
-                    <li><a href="Contact Me" class="nav">Contact Me</a></li>
+                    <li><a href="#about-me" class="nav">About Me</a></li>
+                    <li><a href="#my-work" class="nav">Work</a></li>
+                    <li><a href="#contact-me" class="nav">Contact Me</a></li>
                     <li><a href="Resume" class="nav">Resume</a></li>   
                 </ul>
             </nav>
         </header>
 
-        
+    <!--this is the about me section-->
         <main class="flex-container">
             
-            <img src="images/profile_pic.jpeg" alt="protfolio profile_pic" style="height: 400px;">
+            <img class="profile" src="images/profile_pic.jpeg" alt="protfolio profile_pic" style="height: 400px;">
 
             <section class="main">
-            <h2>About Me</h2>
+            <h2 id="about-me">About Me</h2>
             <p>Hi my name is Lehi Caldwell.</p>
-            <p>Heres a little about me. I love anything outdoors and love a good time</p>
+            <p> Heres a little about me. I love anything outdoors and love a good time</p>
             </section>
 
         </main>
 
         <br>
 
+
+    <!--this is my work section-->
         <article class="work">
                 <h2 class="title">My Work</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo iusto excepturi eum dicta, ullam obcaecati, doloribus, hic esse doloremque omnis et. Sed perferendis quasi similique aut quis fuga magnam?</p>
-
+                <p id="my-work">Here are some of my personal work:</p>
+            <img class="image1" src="images/office.png" alt="office" style="width: 300px;"> 
+            <img class="image2" src="images/iphone.png" alt="smart-phone" style="width: 150px"> 
+            <img class="image3" src="images/team-work.png"  alt="team-work" style="width: 400px; height: 200px;">  
+            <img class="image4" src="images/office-tools.png"alt="office-supplys" style="height: 400px;">
+            <img class="image5" src="images/School.png" alt="school" style="width: 250px;">
+            
         </article>
         
         <br>
 
-        <section>
+
+    <!--this is the contact section-->
+        <section id="contact-me">
             <h2 class="title">Contact Me</h2>
                 <ul class="list">
                     <li>Phone Number: (928)-243-1412</li>
@@ -61,7 +70,9 @@
 
         </section>
 
-<footer> Copyright 2021 by Lehi Caldwell. All Rights Reserved. </footer>
+<footer> 
+    <span>Copyright 2021 by Lehi Caldwell. All Rights Reserved. </span>
+</footer>
 
         
 </body>

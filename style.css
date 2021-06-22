@@ -22,6 +22,8 @@ h1 {
     padding: 0px 30px;
 }
 
+
+/*start of the NAVBAR*/
 /*space in between the different catergories in the nav bar*/
 ul {
     padding: 0px 150px;
@@ -44,6 +46,8 @@ a {
 }
 
 
+
+/*start of the ABOUT ME*/
 /*giving the command to be flex*/
 .flex-container {
     display: flex;
@@ -52,41 +56,90 @@ a {
 /*flex container*/
 .main {
     flex: 2px;
-    padding:40px;  
+    margin-top: 50px;
+    padding:20px;
+    border: groove;  
+    width: 40x;
+    height: 360px;
+    text-align: center;
 }
 
-p {
-    background-color: lightgrey;
-    border-style: solid;
-}
+
 
 /*profile pic*/
-img {
-    margin:50px;
-    padding:20px 115px;
-    border-style: solid;
+img.profile {
+    display: inline-flex;
+  margin-top: 0px;
+  padding-left: 160px;
+  padding-right: 40px;
+  margin-top: 55px;
 }
 
+
+
+
+
+/*start of the work page*/
 /*about me padding*/
 h2 {
-    padding-left: 240px;
+    padding-left: 0;
 }
 
 h2.title {
     text-align: center;
-    padding: 0px;
-    margin: 0px
+    padding-top: 10px;
 }
 
+/*this is the work section*/
 
 article.work{
     text-align: center;
+    border: groove;
+    position: relative;
+    height: 650px;
 }
+
+.image1 {
+    position: absolute;
+    left: 60px;
+    top: 150px;
+}
+
+.image2 {
+    position:absolute;
+    left: 405px;
+    top:150px
+}
+
+.image3 {
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+}
+
+.image4 {
+    position: absolute;
+    top: 150px;
+    right: 90px;
+}
+
+.image5 {
+    position: absolute;
+    right: 405px;
+    top: 150px;
+}
+
+
+
+
+/*this is the start of the contact page*/
 
 ul.list{
     text-align: center;
-    border-style: solid;
+    border-style: groove;
 }
+
+
 
 /*text color of the link*/
 .text {
@@ -100,3 +153,18 @@ ul.list{
 
 
 
+
+
+/*footer*/
+footer {
+    background-color: #0a3c43;
+    height: 30px; 
+}
+
+
+/*this is the footer*/
+span {
+    color: #b79f91;
+    padding: 0px 400px;
+    margin: 30px;
+}
