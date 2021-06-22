@@ -19,7 +19,7 @@ header {
 /*welcome to the home page text*/
 h1 {
     font-size: 40px; 
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 /*space in between the different catergories in the nav bar*/
@@ -81,7 +81,6 @@ h2.title {
 
 article.work{
     text-align: center;
-    
 }
 
 ul.list{
