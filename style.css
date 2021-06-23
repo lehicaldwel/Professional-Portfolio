@@ -1,38 +1,50 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 /*the color of the body of the page*/
 body {
     background-color: #f0f1f1;
 }
 
+.wrapp1 {
+    width: 100%;
+}
 
 /*the details of the header*/
 header {
     background-color: #0a3c43;
     color: #b79f91;
-    padding:10px;
     text-align: center;
    display: flex;
 }
 
 
 /*welcome to the home page text*/
-h1 {
-    font-size: 40px; 
-    padding: 0px 30px;
+.wrap1 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    font-size: 40px;
+    padding: 10px 20px 10px
+    
 }
 
 
 /*start of the NAVBAR*/
 /*space in between the different catergories in the nav bar*/
-ul {
-    padding: 0px 150px;
+nav ul {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 /*positioning on the nav bar*/
 li {
     display: inline-block;
-    padding: 20px 20px;  
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 15px;
 }
 
 /*when mouse hover over the text nav bar*/
@@ -45,46 +57,35 @@ a {
     color:#b79f91
 }
 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 
 /*start of the ABOUT ME*/
 /*giving the command to be flex*/
 .flex-container {
     display: flex;
-}
-
-/*flex container*/
-.main {
-    flex: 2px;
-    margin-top: 50px;
-    padding:20px;
-    border: groove;  
-    width: 40x;
-    height: 360px;
+    width: 1080px;
     text-align: center;
+    margin: 50px;
+
+    
 }
-
-
 
 /*profile pic*/
 img.profile {
     display: inline-flex;
-  margin-top: 0px;
-  padding-left: 160px;
-  padding-right: 40px;
-  margin-top: 55px;
+    width: 100%;
 }
 
-
-
-
+.middle {
+    padding: 5px 50px;
+}
 
 /*start of the work page*/
 /*about me padding*/
-h2 {
-    padding-left: 0;
-}
-
 h2.title {
     text-align: center;
     padding-top: 10px;
@@ -98,6 +99,7 @@ article.work{
     position: relative;
     height: 650px;
 }
+
 
 .image1 {
     position: absolute;
@@ -165,6 +167,6 @@ footer {
 /*this is the footer*/
 span {
     color: #b79f91;
-    padding: 0px 400px;
+    padding: 0px 500px;
     margin: 30px;
 }
